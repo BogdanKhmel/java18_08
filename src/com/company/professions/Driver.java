@@ -1,18 +1,18 @@
 package com.company.professions;
 
-public class Driver {
-    private String fullname;
+import com.company.Person;
+
+public class Driver extends Person {
     private double driveExperience;
 
 
     public Driver(String fullname,double driveExperience){
-
-        this.fullname = fullname;
+        super(fullname);
         this.driveExperience = driveExperience;
     }
 
     public  String getDriver(){
-        String driverInfo = fullname + " " + driveExperience;
+        String driverInfo = getFullname() + " " + driveExperience;
         return driverInfo;
     }
 
