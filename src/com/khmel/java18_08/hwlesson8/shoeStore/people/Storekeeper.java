@@ -7,7 +7,7 @@ public class Storekeeper extends Person implements  ServicesStaff{
 
     @Override
     public String doSomething() {
-        return null;
+        System.out.println("Работает на склоде");
     }
     @Override
     public String work(WorkType type) {
