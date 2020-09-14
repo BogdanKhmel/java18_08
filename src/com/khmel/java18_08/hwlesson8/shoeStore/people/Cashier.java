@@ -5,7 +5,7 @@ import com.khmel.java18_08.hwlesson8.shoeStore.WorkType;
 public class Cashier extends Person implements ServicesStaff{
     @Override
     public String doSomething() {
-        System.out.println("Работает на кассе");;
+        System.out.println("Работает на кассе");
     }
 
     @Override
