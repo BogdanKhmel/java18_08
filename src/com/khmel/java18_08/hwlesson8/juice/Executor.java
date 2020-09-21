@@ -1,6 +1,4 @@
 package com.khmel.java18_08.hwlesson8.juice;
-
-import com.khmel.java18_08.hwlesson8.shoeStore.WorkType;
 import java.util.Scanner;
 public class Executor {
     public static void main(String[] ags) {
