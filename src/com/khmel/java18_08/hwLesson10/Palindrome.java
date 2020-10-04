@@ -1,5 +1,7 @@
-package com.khmel.java18_08.hwlesson10;
+package com.khmel.java18_08.hwLesson10;
+
 import java.util.Scanner;
+
 public class Palindrome {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

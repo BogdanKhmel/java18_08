@@ -1,4 +1,4 @@
-package com.khmel.java18_08.hwlesson10;
+package com.khmel.java18_08.hwLesson10;
 
 public class Sorting {
 
@@ -48,12 +48,12 @@ public class Sorting {
         }
         System.out.print("\n");
         bubbleSort(arr);
-        for(int i = 0; i <  arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "  ");
         }
         System.out.print("\n");
         selectionSort(arr);
-        for(int i = 0; i <  arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "  ");
         }
     }

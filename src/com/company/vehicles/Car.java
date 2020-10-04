@@ -5,14 +5,14 @@ import com.company.professions.Driver;
 
 import static java.lang.System.*;
 
-public  class Car {
+public class Car {
     private String carMake;
     private String carClass;
     private double weight;
     private Driver driver;
     private Engine engine;
 
-    public Car(String carMake, String carClass, double weight, Driver driver,Engine engine) {
+    public Car(String carMake, String carClass, double weight, Driver driver, Engine engine) {
 
         this.carMake = carMake;
         this.carClass = carClass;
@@ -24,9 +24,9 @@ public  class Car {
     }
 
 
-    public String  getCar() {
-        String carInfo = carMake+" "+carClass+" "+weight;
-       return carInfo;
+    public String getCar() {
+        String carInfo = carMake + " " + carClass + " " + weight;
+        return carInfo;
     }
 
     public void start() {
@@ -46,10 +46,9 @@ public  class Car {
     }
 
 
+    public void printInfo() {
 
-    public  void printInfo() {
-
-       System.out.println("   "+getCar() + "\n" + driver.getDriver() + "\n" + engine.getEngine());
+        System.out.println("   " + getCar() + "\n" + driver.getDriver() + "\n" + engine.getEngine());
 
     }
 }

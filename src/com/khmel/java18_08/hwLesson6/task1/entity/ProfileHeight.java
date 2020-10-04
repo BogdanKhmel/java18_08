@@ -22,10 +22,10 @@ public class ProfileHeight {
     public int getProfile() {
         return profile;
     }
-    
 
-   public double getProfileHeight() {
-       return profileHeight= profileWidth * profile  / 100;
+
+    public double getProfileHeight() {
+        return profileHeight = profileWidth * profile / 100;
 
     }
 }

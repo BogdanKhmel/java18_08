@@ -1,5 +1,7 @@
-package com.khmel.java18_08.hwlesson8.juice;
+package com.khmel.java18_08.hwLesson8.juice;
+
 import java.util.Scanner;
+
 public class Executor {
     public static void main(String[] ags) {
         JuiceFactory juiceFactory = new JuiceFactory();

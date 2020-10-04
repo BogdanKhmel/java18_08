@@ -7,8 +7,9 @@ public class Tempr {
     public static void main(String[] args) {
         System.out.println("Температора в Градусах Фаренгейта равна " + Tempr(25));
     }
-    public static  double Tempr(int tc){
-       return 9 / 5.0 * tc + 32;
+
+    public static double Tempr(int tc) {
+        return 9 / 5.0 * tc + 32;
 
     }
 

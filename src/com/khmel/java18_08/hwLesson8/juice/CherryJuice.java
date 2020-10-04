@@ -1,10 +1,10 @@
-package com.khmel.java18_08.hwlesson8.juice;
+package com.khmel.java18_08.hwLesson8.juice;
 
-public class CherryJuice implements Juice{
+public class CherryJuice implements Juice {
     @Override
     public void makeJuice() {
-       System.out.println("Make cherry juice");
-        
+        System.out.println("Make cherry juice");
+
     }
 
     @Override

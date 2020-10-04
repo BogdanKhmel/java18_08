@@ -22,10 +22,8 @@ public class InDiameterTire extends ProfileHeight {
         return diameter;
     }
 
-    public double getInDiameterTire(){
-        return inDiameter = diameter*25.4;
-
-
+    public double getInDiameterTire() {
+        return inDiameter = diameter * 25.4;
 
 
     }

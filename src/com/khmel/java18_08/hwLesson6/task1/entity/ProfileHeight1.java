@@ -10,15 +10,14 @@ public class ProfileHeight1 extends ProfileHeight {
     }
 
 
-
     public String getS() {
 
-        if(getProfile()<=50)
-            s =season+" Высокопрофильная шина";
+        if (getProfile() <= 50)
+            s = season + " Высокопрофильная шина";
         else
-            s =season+" Hизкопрофильная шина";
+            s = season + " Hизкопрофильная шина";
 
         return s;
     }
 
-    }
+}

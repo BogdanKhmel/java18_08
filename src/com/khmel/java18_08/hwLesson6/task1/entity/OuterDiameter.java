@@ -10,8 +10,8 @@ public class OuterDiameter extends InDiameterTire {
     }
 
 
-    public  double getOutDiameter() {
+    public double getOutDiameter() {
 
-       return outDiameter = getProfileHeight() * 2 + getInDiameterTire();
+        return outDiameter = getProfileHeight() * 2 + getInDiameterTire();
     }
 }

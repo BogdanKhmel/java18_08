@@ -1,4 +1,4 @@
-package com.khmel.java18_08.hwlesson8.juice;
+package com.khmel.java18_08.hwLesson8.juice;
 
 public class JuiceFactory {
     public Juice cookJuice(JuiceType type) {
